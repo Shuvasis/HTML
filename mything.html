@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /* ul {
+        margin: 0px;
+        padding: 0px;
+        width: 200px;
+        list-style-type: none;
+        background-color: violet;
+        border: 1px solid black;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+       
+      }
+      li a {
+        display: block;
+        
+        
+        padding: 8px 16px;
+        text-decoration: none;
+        text-align: center;
+        border-bottom: 1px solid black;
+
+      }
+      li a:hover:not(.active) {
+        background-color: teal;
+        color: white;
+      }
+      
+      li a.active {
+        background-color: tomato;
+        color: white;
+      }
+      */
+      body {
+        margin: 0;
+      }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  /* position: sticky; */
+  
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn, .new {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn, .news:hover .new {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+li.news {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(163, 15, 15, 0.2);
+  z-index: 1;
+}
+.news-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(163, 15, 15, 0.2);
+  z-index: 1;
+  border: 1px solid black;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.news-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border: 1px solid pink;
+}
+
+.dropdown-content a:hover {background-color: #c6d81f;}
+.news-content a:hover {background-color: blueviolet;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.news:hover .news-content {
+  display: block;
+}
+
+
+        
+    </style>
+</head>
+<body>
+    <!-- <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+      <h2>Fixed Full-height Side Nav</h2>
+      <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+      <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+      <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+    </div> -->
+    <!-- <div class="header">
+      <h2>Scroll Down</h2>
+      <p>Scroll down to see the sticky effect.</p>
+    </div> -->
+    <header class="headers">
+      <nav class="nav1">
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li class="news">
+            <a href="javascript:void(0)" class="new">News</a>
+            <div class="news-content">
+              <a href="#">News 1</a>
+              <a href="#">News 2</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li>
+        
+          <li><a href="#about">About</a></li>
+          <li style="float: right;"><a href="signup.html">Sign Up</a></li>
+          <li style="float: right;"><a href="login.html">Login</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <div style="padding: 50px; margin: top 30px;background-color:#1abc9c;height:1500px;">
+      <h1>Fixed Top Navigation Bar</h1>
+      <h2>Scroll this page to see the effect</h2>
+      <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+    
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+    </div>
+  
+    
+</body>
+</html>

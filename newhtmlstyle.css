@@ -1,0 +1,223 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.nav_bar {
+    height: 5rem;
+    width: 85rem;
+    background-color: teal;
+    /* overflow: auto; */
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.head_div {
+    width: 85rem;
+
+}
+
+/* ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    width: 200px;
+    background-color: thistle;
+}
+li {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 15px 16px;
+    text-decoration: none;
+    text-align: center;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    position: relative;
+    top: 1rem;
+    left: 36rem;
+  }
+  
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: tomato;
+    color: white;
+}
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover:not(.active) {
+    /* background-color: #111; */
+    color: orangered;
+  }
+  
+  .top {
+      position: absolute;
+      top: 1rem;
+      padding: 8px 16px;
+      font-size: 2rem;
+      text-decoration: none;
+      /* font-style: italic; */
+      color: white;
+  }
+  em {
+      color: tomato;
+      font-style: normal;
+  }
+  .pic_div {
+      /* position: sticky;
+      overflow: auto; */
+      height: 39rem;
+      max-width: 85rem;
+      /* position: static; */
+      background-image: url('gym.jpg');
+      /* background-image: linear-gradient(); */
+      background-size: 85rem;
+      background-repeat: no-repeat;
+      
+  }
+  .mid_div {
+      position: absolute;
+      text-align: center;
+      left: 20rem;
+      top: 12rem;
+      font-size: 2rem;
+  }
+  .mid_div,h5 {
+      color: white;
+  }
+  .b1 {
+      background-color: orangered;
+      padding: 1rem 2rem;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      color: white;
+  }
+  .b1:hover {
+      background-color: teal;
+      color: orange;
+  }
+  .cen_div {
+      margin: 0rem;
+      padding: 0rem;
+      /* position: sticky;
+      overflow: auto; */
+      height: 51rem;
+      width: 90rem;
+      /* background-color: violet; */
+      
+  }
+  .c1 {
+      text-align: center;
+      position: relative;
+      top: 2rem;
+  }
+  .left_icon {
+      position: relative;
+      top: 7rem;
+      left: 10rem;
+      
+  }
+  .right_content {
+      position: relative;
+      left: 18rem;
+      bottom: 1rem;
+      /* background-color: orchid; */
+      width: 22rem;
+  }
+  .an {
+      text-decoration: none;
+      font-size: 1rem;
+      color: orangered;
+  }
+
+  .right {
+      float: right;
+      position: relative;
+      bottom: 44.6rem;
+      right: 30rem
+  }
+
+  .backg_div {
+      background-color: aqua;
+      height: 20rem;
+      width: 90rem;
+      color: white;
+      position: relative;
+      top: 4rem;
+      background-image: url('newback.jpg');
+      
+  }
+  .backg_content {
+      text-align: center;
+      position: relative;
+      top: 6rem;
+      left: 9rem;
+      font-size: 2rem;
+  }
+  .classes {
+      height: 50rem;
+      width: 90rem;
+      /* background-color: yellowgreen; */
+      /* color: tomato; */
+      position: relative;
+      top: 8rem;
+      /* text-align: center; */
+      left: 5rem;
+      
+  }
+  .left {
+      float: left;
+      /* background-color: orchid; */
+      position: relative;
+      left: 5rem;
+      top: 5rem;
+
+  }
+  .fclsss {
+      padding: 1rem 1rem 2rem;
+      box-shadow: 10px 10px 5px rgb(184, 183, 183);
+      width: 16rem;
+      cursor: pointer;   
+  }
+
+  .sc_btn {
+      padding: 1rem 1rem 1rem;
+      width: 18rem;
+      background-color: orangered;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-size: 1.5rem;
+  }
+  .lright {
+      float: right;
+      position: relative;
+      left: 6rem;
+      top: 5rem;
+  }

@@ -1,0 +1,151 @@
+.nav1 {
+    position: sticky;
+    /* background-color: aliceblue; */
+    top: 9px;
+}
+.div1 {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.div2 input{
+    border: none;
+    outline: none;
+
+}
+.box1 {
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.589);
+    /* color: white; */
+}
+.box2 {
+    padding: 10px 15px;
+    margin-top: 20px;
+    width: 320px;
+    border-radius: 20px;
+    background-color: rgb(228, 228, 122);
+    border: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: green;
+    font-size: 15px;
+}
+button.box2:hover {
+    background-color: teal;
+    color: white;
+}
+h2:hover {
+    color: red;
+}
+.box3 {
+    margin-left: -200px;
+    color: white;
+    border: none;
+    outline: none;
+}
+.p1 {
+    margin-left: 700px;
+    margin-top: -19px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    width: 150px;
+}
+::placeholder {
+    color: black;
+    
+    
+    
+}
+.bt1 {
+    padding: 10px 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(0, 133, 185);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btf {
+    padding: 10px 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(62, 62, 238);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.main {
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 0, 0.479);
+    height: 600px;
+    width: 500px;
+    margin-left: 450px;
+    /* position: fixed; */
+    overflow: auto;
+    border-top: 2px solid blue;
+    border-top-style: groove;
+    border: 2px solid red;
+}
+.su {
+    margin-top: 20px;
+    /* overflow-y: auto; */
+    
+}
+.in1 {
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 300px;
+    margin-bottom: 30px;
+}
+.fname {
+    padding: 10px 30px;
+    margin-left: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.lname {
+    padding: 10px 30px;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.sel {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.cb {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.btr {
+    padding: 10px 20px;
+    width: 200px;
+    background-color: rgb(30, 155, 30);
+    color: white;
+    cursor: pointer;
+}
+.headers {
+    position: fixed;
+}
